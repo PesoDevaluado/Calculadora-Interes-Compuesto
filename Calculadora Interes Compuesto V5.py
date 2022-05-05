@@ -1,6 +1,6 @@
 while True:
 
-    print("Bienvenido a la Calculadora de Interes Compuesto V4...")
+    print("Bienvenido a la Calculadora de Interes Compuesto V5...")
     print("Por favor no usar comas", "," ,"sino puntos", ".","dentro de la calculadora...")
     print("------------------------------------------------------------------")
 
