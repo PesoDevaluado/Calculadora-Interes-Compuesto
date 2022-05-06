@@ -1,6 +1,6 @@
 while True:
 
-    print("Bienvenido a la Calculadora de Interes Compuesto V5...")
+    print("Bienvenido a la Calculadora de Interes Compuesto V7...")
     print("Por favor no usar comas", "," ,"sino puntos", ".","dentro de la calculadora...")
     print("------------------------------------------------------------------")
 
@@ -16,9 +16,13 @@ while True:
     print("------------------------------------------------------------------")
     ImpuestoGanancias = input("Impuesto a las Ganancias S/N: ")
     print("------------------------------------------------------------------")
+    
+    if ImpuestoGanancias == "S":
+        ImpuestoGananciasValor = int(input("Por Favor Ingrese el % de Impuesto a las Ganancias que le Corresponde (Por Defecto 3):"))
+        print("------------------------------------------------------------------")
 
     Contador = 0
-    ImpuestoGanancias3 = 3/100
+    ImpuestoGanancias3 = ImpuestoGananciasValor/100
 
     for i in range(Meses):
         InteresMensual = (((Interes/100)*PlazoInversion)/365)
